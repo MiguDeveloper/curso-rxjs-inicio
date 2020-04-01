@@ -24,4 +24,7 @@ Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero 
 
 Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
 
+## Qué son los operadores
 
+un operador en ReactiveJs nos permite controlar el flujo de datos de un stream de información. este operador es una función se pega a un observable y sirve para por ejemplo: unirlos, filtrarlos
+```Map(x => x*10)```
