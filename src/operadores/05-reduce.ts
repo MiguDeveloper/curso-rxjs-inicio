@@ -14,7 +14,7 @@ const total = numbers.reduce(totalReducer, 0);
 console.log('Total arr:', total);
 
 interval(1000).pipe(
-    take(12),
+    take(10),
     tap(console.log),
     reduce(totalReducer, 20)
 )

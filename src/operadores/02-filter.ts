@@ -35,7 +35,7 @@ from(personajes).pipe(
     filter(personaje => personaje.tipo === 'heroe')
 ).subscribe(console.log);
 
-// operadores encadenados
+// operadores encadenados: aqui por ejemplo solo mostraremos cuando se presione la tecla 'enter'
 const keyup$ = fromEvent<KeyboardEvent>(document, 'keyup').pipe(
     map(event => event.code),
     filter(key => key ==='Enter')
